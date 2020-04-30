@@ -61,7 +61,7 @@ p {
     margin: 0;
 }
 .img-circle {
-    border: 3px solid white;
+    border: 3px solid #ffffff;
     border-radius: 50%;
 }
 .section {
@@ -71,6 +71,7 @@ p {
     border-radius: 10px;
 }
 #header {
+    height: 250px;
     background-image: url("https://www.sololearn.com/Uploads/header.jpg");
     background-size: cover;
 }
@@ -79,6 +80,7 @@ p {
     width: 80px;
     height: 80px;
     margin: auto;
+    margin-top: 100px;
 }
 #header p {
     font-size: 25pt;
