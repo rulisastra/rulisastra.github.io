@@ -14,14 +14,34 @@
         <div class="navbar" id="navbar">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li> 
-                    <!-- Timeline, Topics-->
-                    <li><a href="#">The latest gossip</a></li>
-                    <li><a href="https://github.com/rulisastra">Women in Tech</a></li>
-                    <!-- Lesson, Skills, Topics -->
-                    <li><a href="http://rulisastra.web.ugm.ac.id/">Daily Journaling</a></li> 
-                    <!-- Life lesson, Quote, Galery -->
-                    <li><a href="https://www.goodreads.com/user/show/23345338-ruli-sastra">Books - Movies</a></li>  
+                    <li><a href="#">Home</a></li> <!-- Timeline, Topics-->
+                    <li><a href="#">The latest update</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Women in Tech</a>
+                        <div class="dropdown-content">
+                            <a href="https://github.com/rulisastra">Ruli's Github</a>
+                            <a href="#">Hot topics</a>
+                            <a href="#">Progressing lesson</a>
+                            <a href="#">Skill sets</a>
+                            <a href="#">Open discussion</a>                            
+                        </div>
+                    </li>      
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Daily Journaling</a>
+                        <div class="dropdown-content">
+                            <a href="http://rulisastra.web.ugm.ac.id/">Old UGM website</a>
+                            <a href="https://medium.com/@rulisastra">Life lesson</a>
+                            <a href="#">Quote cards</a>
+                            <a href="#">Good-old-days gallery</a>
+                        </div>
+                    </li> 
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">Having fun!</a>
+                        <div class="dropdown-content">
+                            <a href="https://www.goodreads.com/user/show/23345338-ruli-sastra">Books on Goodreads</a>
+                            <a href="#">Movies in IMDb</a>
+                        </div>
+                    </li>  
                     <li><a href="#">Get in Touch</a></li> 
                 </ul>
             </nav>
@@ -103,45 +123,68 @@
             <!-- Section Skills -->
             <div class="section">
                 <h1><span>My Skills</span></h1>
-                <ul>
-                    <li>HTML <br />
-                        <progress min="0" max="100" value="90"></progress>
-                    </li>
-                    <li>C++ <br />
-                        <progress min="0" max="100" value="70"></progress>
-                    </li>
-                    <li>Java <br />
-                        <progress min="0" max="100" value="85"></progress>
-                    </li>
-            <li>Java Script <br />
-                        <progress min="0" max="100" value="80"></progress>
-                    </li>
-            <li>JQuery<br />
-                        <progress min="0" max="100" value="60"></progress>
-                    </li>
-            <li>PHP <br />
-                        <progress min="0" max="100" value="60"></progress>
-                    </li>
-            <li>Python <br />
-                        <progress min="0" max="100" value="95"></progress>
-                    </li>   
-                <li>C <br />
-                        <progress min="0" max="100" value="60"></progress>
-                    </li>
-                <li>Ruby <br />
-                        <progress min="0" max="100" value="30"></progress>
-                    </li>
-                    <li>Swift <br />
-                        <progress min="0" max="100" value="30"></progress>
-                    </li>
-                <li>C# <br />
-                        <progress min="0" max="100" value="30"></progress>
-                    </li>
-                <li>SQL <br />
-                        <progress min="0" max="100" value="80"></progress>
-                    </li>
-                                                        
-                </ul>
+                <div class="leftside" id="leftside">
+                    <ul>
+                        <li>HTML <br />
+                            <progress min="0" max="100" value="90"></progress>
+                        </li>
+                        <li>C++ <br />
+                            <progress min="0" max="100" value="70"></progress>
+                        </li>
+                        <li>Java <br />
+                            <progress min="0" max="100" value="85"></progress>
+                        </li>
+                        <li>Java Script <br />
+                            <progress min="0" max="100" value="80"></progress>
+                        </li>
+                        <li>JQuery<br />
+                            <progress min="0" max="100" value="60"></progress>
+                        </li>
+                        <li>PHP <br />
+                            <progress min="0" max="100" value="60"></progress>
+                        </li>
+                        <li>Python <br />
+                            <progress min="0" max="100" value="95"></progress>
+                        </li>   
+                        <li>C <br />
+                            <progress min="0" max="100" value="60"></progress>
+                        </li>
+                        <li>Ruby <br />
+                            <progress min="0" max="100" value="30"></progress>
+                        </li>
+                        <li>Swift <br />
+                            <progress min="0" max="100" value="30"></progress>
+                        </li>
+                        <li>C# <br />
+                            <progress min="0" max="100" value="30"></progress>
+                        </li>
+                        <li>SQL <br />
+                            <progress min="0" max="100" value="80"></progress>
+                        </li>                                  
+                    </ul>
+                </div>
+
+                <div class="rightside" id="rightside">
+                    <ul>
+                        <li>C# <br />
+                            <progress min="0" max="100" value="30"></progress>
+                        </li>
+                        <li>SQL <br />
+                            <progress min="0" max="100" value="80"></progress>
+                        </li> 
+                    </ul>
+                </div>
+                
+            </div>
+
+            <!-- Twitter -->
+            <div>
+                <section>
+                    <div>
+                    <a class="twitter_timeline" href=" https://twitter.com/rulisastra">Tweets by rulisastra</a>
+                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                    </div>  
+                </section>
             </div>
 
             <!-- Section Contact Email -->

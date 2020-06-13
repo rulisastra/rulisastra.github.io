@@ -1,11 +1,11 @@
 html {
-    margin:5px;
+    margin:0px;
     padding: 0;
 }
 body {
     font-family: 'Playfair Display', serif;
     font-style: normal;
-    font-size: 13pt;
+    font-size: 14pt;
     background-color: #efefef;
     padding: 0px;
 }
@@ -30,16 +30,16 @@ body {
     display: inline-block;
 }
 
-.navbar li a { 
+.navbar li a, .dropbtn { 
     margin-top: 1px;
-    color:#cb6f91;
+    color:white;
     padding: 11px;
     font-family: 'Playfair Display', serif;
     text-decoration: none;
     display:inline-block;
 } 
 
-.navbar li a:hover {
+.navbar li a:hover, .dropdown:hover {
     color: #F2C776;
 }
 
@@ -53,20 +53,16 @@ h1 {
 h1 span {
     border: 2px dashed #cb6f91;
     padding: 10px;
+    border-radius: 10px;
 }
 p {
     padding: 0;
     margin: 0;
 }
-.img-circle {
-    border: 3px solid #ffffff;
-    border-radius: 50%;
-}
 .section {
     background-color: #fff;
     padding: 30px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin-bottom: 3px;
 }
 #header {
     height: 130px;
@@ -104,6 +100,8 @@ h3 {
     text-align: right;
     margin-top: 10px;
 }
+
+/* Timeline */
 table {
     width: 100%;
 }
@@ -118,6 +116,8 @@ table, th, td {
     font-weight: bold;
     color: white;
 }
+
+/* Skills */
 li {
     margin-bottom: 1px;
     font-weight: normal;
@@ -129,7 +129,7 @@ progress {
     background: #efefef;
 }
 progress::-webkit-progress-bar {
-    background: #efefef;
+    background: #efefef; /*background progress bar*/
 }
 progress::-webkit-progress-value {
     background: #cb6f91;
@@ -143,6 +143,24 @@ iframe, audio {
     margin: 0 auto;
     border: 3px solid #cb6f91;
 }
+/*
+#leftside {
+    float: left;
+    width: 95%;
+}
+#rightside {
+    float: right;
+    width: 95%;
+}
+*/
+
+/*Twitter*/
+.twitter_timeline {
+    height: 30px;
+    width: 30px;
+}
+
+/*form*/
 hr {
     border: 0;
     height: 1px;
@@ -180,19 +198,18 @@ input, textarea {
     width: 70%;
     outline: none;
 }
+
+/*logo sosmed */
 #contacts a {
     text-decoration: none;
 }
 #contacts {
     text-align: center;
 }
-/*logo sosmed */
-
 .social-facebook {
     float: left;
     padding: 5px;
 }
-  
 .social-twitter {
     float: left;
     padding: 5px;
@@ -244,6 +261,22 @@ input, textarea {
     top: -10%;
     left: -10%;
 }
+
+/* Animation of Social Medias */
+@keyframes aaa {
+    0% {
+      left: -110%;
+      top: 90%;
+    }
+    50% {
+      left: 10%;
+      top: -30%;
+    }
+    100% {
+      left: -10%;
+      top: -10%;
+    } 
+  }
   
 .copyright {
     font-size: 8pt;
