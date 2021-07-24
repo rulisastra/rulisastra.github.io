@@ -1,3 +1,7 @@
 # rulisastra.github.io
+[go here to see](https://github.com/rulisastra/calcGO.git)
 
-This was just some messy thoughts in IT
+This was just an interface for my social medias
+
+
+Looking for messy thoughts in IT? go to my [medium](https://medium.com/@rulisastra) 
