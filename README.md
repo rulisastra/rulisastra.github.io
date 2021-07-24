@@ -1,5 +1,5 @@
 # rulisastra.github.io
-[go here to see](https://github.com/rulisastra/calcGO.git)
+[go here to see](https://rulisastra.github.io/)
 
 This was just an interface for my social medias
 
